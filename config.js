@@ -11,29 +11,29 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Dan',
 	imageBackground: false,
-	openInNewTab: true,
+	openInNewTab: false,
 	twelveHourFormat: false,
 
 	// Greetings
 	greetingMorning: 'Good morning!',
 	greetingAfternoon: 'Good afternoon,',
 	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingNight: 'It is late,',
 
 	// Layout
-	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'lists', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherKey: '7b9b631b68110ee5737b807c37633934', // Write here your API Key
+	weatherIcons: 'Nord', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '47.373360',
+	defaultLongitude: '8.515070',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -135,46 +135,46 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'graduation-cap',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'MyStudies',
+					link: 'https://www.lehrbetrieb.ethz.ch/myStudies/',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Moodle',
+					link: 'https://moodle-app2.let.ethz.ch',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'EduApp',
+					link: 'https://eduapp-app1.ethz.ch/',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Video',
+					link: 'https://video.ethz.ch',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'globe-2',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Maps',
+					link: 'https://maps.google.com',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Calendar',
+					link: 'https://calendar.google.com',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Photos',
+					link: 'https://photos.google.com',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Fonts',
+					link: 'https://fonts.google.com',
 				},
 			],
 		},
@@ -183,46 +183,46 @@ const CONFIG = {
 	// Second Links Container
 	secondListsContainer: [
 		{
-			icon: 'binary',
+			icon: 'play-circle',
 			id: '1',
 			links: [
+				{
+					name: 'YouTube',
+					link: 'https://www.youtube.com',
+				},
+				{
+					name: 'Netflix',
+					link: 'https://www.netflix.com',
+				},
 				{
 					name: 'Spotify',
 					link: 'https://www.spotify.com',
 				},
 				{
-					name: 'Reddit',
-					link: 'https://www.reddit.com',
-				},
-				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
-				},
-				{
-					name: 'Pocket',
-					link: 'https://www.pocket.com',
+					name: 'Twitch',
+					link: 'https://www.twitch.com',
 				},
 			],
 		},
 		{
-			icon: 'github',
+			icon: 'wrench',
 			id: '2',
 			links: [
 				{
-					name: 'Front',
-					link: 'https://www.reddit.com/r/Frontend/',
+					name: 'Translate',
+					link: 'https://translate.google.com',
 				},
 				{
-					name: 'Rust',
-					link: 'https://www.reddit.com/r/rust/',
+					name: 'Dominant Colours',
+					link: 'https://www.imgonline.com.ua/eng/get-dominant-colors.php',
 				},
 				{
-					name: 'Go',
+					name: 'Field Play',
 					link: 'https://www.reddit.com/r/golang/',
 				},
 				{
-					name: 'Repos',
-					link: 'https://github.com/migueravila',
+					name: 'OneDrive',
+					link: 'https://ethz-my.sharepoint.com/personal/dlewinsky_ethz_ch/_layouts/15/onedrive.aspx',
 				},
 			],
 		},
