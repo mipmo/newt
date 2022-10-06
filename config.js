@@ -218,7 +218,7 @@ const CONFIG = {
 				},
 				{
 					name: 'Field Play',
-					link: 'https://www.reddit.com/r/golang/',
+					link: 'https://anvaka.github.io/fieldplay/',
 				},
 				{
 					name: 'OneDrive',
